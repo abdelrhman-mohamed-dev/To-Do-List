@@ -1,0 +1,9 @@
+.item {
+  .delete {
+    width: fit-content !important;
+    font-size: 15px;
+  }
+  input[type="checkbox"]:checked + .checkbox-label {
+    text-decoration: line-through;
+  }
+}
